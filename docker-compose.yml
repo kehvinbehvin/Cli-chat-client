@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  chat-server:
+    image: chatserver:alpha
+    ports:
+    - "8080:8080"
+    
